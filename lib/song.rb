@@ -5,7 +5,7 @@ class Song
   @@count = 0
   @@genres = []
   @@artists = []
-  @@genre_count = Hash.new
+  @@genre_count = Hash.new(0)
   
   
   def initialize(name, artist, genre)
@@ -35,5 +35,9 @@ class Song
     }
     @@genre_count
   end
+  
+  names = ["Jason", "Jason", "Teresa", "Judah", "Michelle", "Judah", "Judah", "Allison"]
+counts = Hash.new(0)
+names.each { |name| counts[name] += 1 }
   
 end
