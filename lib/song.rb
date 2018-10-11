@@ -33,6 +33,7 @@ class Song
     @@genres.each { |i|
      @@genres[i] += 1 
     }
+    @@genre_count
   end
   
 end
