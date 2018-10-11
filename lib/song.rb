@@ -33,9 +33,9 @@ class Song
     @@genres.each { |i|
       @@genre_count[i] = 0
     }
-    @@genres.each { |i|
-      @@genre_count[i] += 1
-    }
+    # @@genres.each { |i|
+    #   @@genre_count[i] += 1
+    # }
     @@genre_count
   end
   
